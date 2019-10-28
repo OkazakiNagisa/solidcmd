@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "solidcmd",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Solid Command UI",
+  "description": "Enable command interface in portals.",
   "authors": [
-    "Me!"
+    "nakido"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/OkazakiNagisa",
+    "sources": "https://github.com/OkazakiNagisa/solidcmd"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.nakido.Mod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mixins.json"
   ],
 
   "depends": {
@@ -32,5 +32,8 @@
   },
   "suggests": {
     "flamingo": "*"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
   }
 }

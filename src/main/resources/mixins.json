@@ -1,11 +1,11 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "me.nakido.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ClientPlayerEntityOverrider"
   ],
   "injectors": {
     "defaultRequire": 1
